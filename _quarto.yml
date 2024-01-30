@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Quinton's Statistical Programming"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/qquagliano
+      - icon: linkedin
+        href: https://www.linkedin.com/in/quintonquagliano
+      - icon: mortarboard
+        href: https://www.researchgate.net/profile/Quinton-Quagliano
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
